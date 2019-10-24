@@ -3,6 +3,9 @@ package com.LickingHeights;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	int randomNummber;
+
+	randomNummber = (int) (Math.random()*100)+1;
+	System.out.println(randomNummber);
     }
 }
