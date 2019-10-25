@@ -14,13 +14,17 @@ public class Main {
 		System.out.println("Guess the number i am thinking of 1 - 100");
 		guess = keyboard.nextInt();
 	randomNummber = (int) (Math.random()*100)+1;
-	System.out.println(randomNummber);
+	
 	do{
+		guess = keyboard.nextInt();
 		if (guess > randomNummber) {
 			System.out.println("your to high");
 		}
 		else if (guess < randomNummber) {
 			System.out.println("your to low");
+		}
+		else {
+			System.out.println("correct");
 		}
 
 
