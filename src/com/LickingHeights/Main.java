@@ -12,9 +12,9 @@ public class Main {
 	String correct;
 
 		System.out.println("Guess the number i am thinking of 1 - 100");
-		guess = keyboard.nextInt();
+
 	randomNummber = (int) (Math.random()*100)+1;
-	
+
 	do{
 		guess = keyboard.nextInt();
 		if (guess > randomNummber) {
